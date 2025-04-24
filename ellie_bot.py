@@ -4,7 +4,7 @@ import random
 import os
 
 # Получаем токен из переменной окружения (для Railway)
-bot = telebot.TeleBot(os.getenv("7799403455:AAGZ-yZvWPaheo6E5mz7ZkAKDwpDsotxxAY"))
+bot = telebot.TeleBot(os.getenv("BOT_TOKEN"))
 
 # Вайбы по ключевым словам
 vibes = {
